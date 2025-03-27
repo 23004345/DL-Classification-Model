@@ -186,5 +186,4 @@ print(f"Actual class for sample input: {iris.target_names[y_test[5].item()]}")
 ### RESULT
 Thus, a neural network classification model has been successfully built.
 
-## RESULT
-Include your result here
+
