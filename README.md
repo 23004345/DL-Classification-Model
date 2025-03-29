@@ -37,9 +37,9 @@ Predict a sample input and compare with the actual class.
 
 ## PROGRAM
 
-### Name:SACHIN M
+### Name:DEVESH S
 
-### Register Number:212223040177
+### Register Number:212223230041
 
 ```python
 class IrisClassifier(nn.Module):
@@ -137,8 +137,8 @@ confusion_matrix=confusion_matrix(actuals, predictions)
 classification_report=classification_report(actuals, predictions)
 
 
-print("Name: SACHIN M")
-print("Register Number: 212223040177")
+print("Name: DEVESH S")
+print("Register Number: 212223230041")
 print(f"Accuracy: {accuracy:.2f}")
 print("Confusion Matrix:\n", confusion_matrix)
 print("Classification Report:\n", classification_report)
@@ -156,8 +156,8 @@ with torch.no_grad():
   predicted_class_index = torch.argmax(output[0]).item()
   predicted_class_label = iris.target_names[predicted_class_index]
 
-print("\nName: SACHIN M")
-print("\nRegister Name: 212223040177")
+print("\nName: DEVESH S")
+print("\nRegister Name: 212223230041")
 print(f"Predicted class for sample input: {predicted_class_label}")
 print(f"Actual class for sample input: {iris.target_names[y_test[5].item()]}")
 
@@ -180,7 +180,7 @@ print(f"Actual class for sample input: {iris.target_names[y_test[5].item()]}")
 
 
 ### New Sample Data Prediction
-![Screenshot 2025-03-27 142846](https://github.com/user-attachments/assets/76a4f323-b33d-4e05-ab43-4ce8b0b6a5b6)
+![Screenshot 2025-03-29 103609](https://github.com/user-attachments/assets/786da58e-0c99-49b4-a085-8f572681c524)
 
 
 ### RESULT
